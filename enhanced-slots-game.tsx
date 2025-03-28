@@ -42,10 +42,10 @@ export default function EnhancedSlotsGame() {
 
   // Define symbols
   const symbols: SlotSymbol[] = [
-    { id: "seven", image: "/images/seven.png", value: 5 },
-    { id: "cherry", image: "/images/cherry.png", value: 3 },
-    { id: "diamond", image: "/images/diamond.png", value: 4 },
-    { id: "bar", image: "/images/bar.png", value: 2 },
+    { id: "seven", image: "/images/blue-berry.png", value: 5 },
+    { id: "cherry", image: "/images/coin-heads.png", value: 3 },
+    { id: "diamond", image: "/images/red-berry.png", value: 4 },
+    { id: "bar", image: "/images/eth-token.png", value: 2 },
     { id: "lemon", image: "/images/lemon.png", value: 1 },
   ]
 
@@ -374,26 +374,26 @@ export default function EnhancedSlotsGame() {
                 <div className="text-white text-xs">
                   <div className="flex items-center gap-1 mb-1">
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/seven.png" alt="Seven" fill />
+                      <Image src="/images/blue-berry.png" alt="Seven" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/seven.png" alt="Seven" fill />
+                      <Image src="/images/blue-berry.png" alt="Seven" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/seven.png" alt="Seven" fill />
+                      <Image src="/images/blue-berry.png" alt="Seven" fill />
                     </div>
                     <span>= 10x</span>
                   </div>
 
                   <div className="flex items-center gap-1 mb-1">
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/diamond.png" alt="Diamond" fill />
+                      <Image src="/images/red-berry.png" alt="Diamond" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/diamond.png" alt="Diamond" fill />
+                      <Image src="/images/red-berry.png" alt="Diamond" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/diamond.png" alt="Diamond" fill />
+                      <Image src="/images/red-berry.png" alt="Diamond" fill />
                     </div>
                     <span>= 8x</span>
                   </div>
@@ -402,23 +402,23 @@ export default function EnhancedSlotsGame() {
                 <div className="text-white text-xs">
                   <div className="flex items-center gap-1 mb-1">
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/cherry.png" alt="Cherry" fill />
+                      <Image src="/images/coin-heads.png" alt="Cherry" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/cherry.png" alt="Cherry" fill />
+                      <Image src="/images/coin-heads.png" alt="Cherry" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/cherry.png" alt="Cherry" fill />
+                      <Image src="/images/coin-heads.png" alt="Cherry" fill />
                     </div>
                     <span>= 5x</span>
                   </div>
 
                   <div className="flex items-center gap-1">
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/bar.png" alt="Bar" fill />
+                      <Image src="/images/eth-token.png" alt="Bar" fill />
                     </div>
                     <div className="w-4 h-4 relative">
-                      <Image src="/images/bar.png" alt="Bar" fill />
+                      <Image src="/images/eth-token.png" alt="Bar" fill />
                     </div>
                     <span>= 0.5x</span>
                   </div>
