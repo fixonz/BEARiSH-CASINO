@@ -46,7 +46,7 @@ export default function EnhancedSlotsGame() {
     { id: "cherry", image: "/images/coin-heads.png", value: 3 },
     { id: "diamond", image: "/images/red-berry.png", value: 4 },
     { id: "bar", image: "/images/eth-token.png", value: 2 },
-    { id: "lemon", image: "/images/lemon.png", value: 1 },
+    { id: "lemon", image: "/images/bearish-logo.png", value: 1 },
   ]
 
   // Update ETH balance when wallet changes
